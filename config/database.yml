@@ -9,7 +9,6 @@ development:
   pool: 5
   username: dartnyan
   password: kurt1245
-
 test:
   adapter: postgresql
   encoding: unicode
