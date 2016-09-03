@@ -32,6 +32,10 @@ html {
 }
 body {
   margin-bottom: 60px;
+  color: #555;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  height: 100%;
+  background: #f1f1f1;
 }
 
 #footer {
@@ -130,3 +134,24 @@ header#header {
     margin-bottom: 0;
   }
 }
+
+.about{
+  font-size: 18px;
+  line-height: 1.5;
+  background: white;
+}
+
+.policy{
+  font-size: 18px;
+  line-height: 1.5;
+  background: white;
+
+}
+
+.user-agreement{
+  font-size: 18px;
+  line-height: 1.5;  
+  background: white;
+
+}
+
