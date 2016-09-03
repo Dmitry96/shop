@@ -29,49 +29,44 @@ a#logo {
 html {
   position: relative;
   min-height: 100%;
+	margin: 0;
 }
 body {
-  margin-bottom: 60px;
-  color: #555;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  height: 100%;
-  background: #f1f1f1;
+  margin-bottom: 110px;
 }
-
 #footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 120px;
+  //height: 120px;
   background: #1c5c92 url(/assets/spree_header-198b754a34f1428c25f64303be8ac2aae84a076433af18ca55b65d7cbf1a0e13.jpg) center center;
-
   background-size: cover;
   color: white !important;
 }
 
 #background {
-  background: rgba(34, 34, 34, 0.4);
-  //display: inline-block;
-  height: 100%;
-  width: 100%;
-  color: white !important;
+	background: rgba(34, 34, 34, 0.4);
+	//display: inline-block;
+	height: 100%;
+	width: 100%;
+	color: white !important;
 }
 
 #footer p {
-  padding-top: 15px;
-  color: white !important;
+	padding-top: 15px;
+	color: white !important;
 }
 
 ul.nav,ul.navbar-nav,ul.navbar-right {
-  float: right;
+	float: right;
 }
 
 .column li a {
-  color: white !important;
+	color: white !important;
 }
 
 .col-lg-3 {
-  padding-top: 10px;
+	padding-top: 10px;
   width: 33%;
   float: left;
 }
@@ -88,13 +83,20 @@ footer .footer_title {
   list-style: none;
 }
 
+.copyright {
+	bottom: 0;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+
 /* header */
 
 header#header {
   padding: 10px !important;
   padding-top: 19px !important;
 
-  
+
   p {
     padding-top: 15px;
     color: white;
@@ -150,8 +152,6 @@ header#header {
 
 .user-agreement{
   font-size: 18px;
-  line-height: 1.5;  
+  line-height: 1.5;
   background: white;
-
 }
-
