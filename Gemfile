@@ -17,8 +17,12 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'spree', '~> 3.1.0'
 gem 'spree_auth_devise', '~> 3.1.0'
 gem 'spree_gateway', '~> 3.1.0'
+<<<<<<< HEAD
 gem 'spree_static_content', github: 'spree-contrib/spree_static_content'
 
+=======
+gem 'spree_static_content', github: 'spree-contrib/spree_static_content', branch: 'master'
+>>>>>>> 799dde1cbc44a4dd7d6fa3305bff9d33350098ce
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -50,4 +54,3 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
-
