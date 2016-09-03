@@ -5,14 +5,14 @@ default: &default
 
 development:
   adapter: postgresql
-  database: sportshop_development
+  database: shop_development
   pool: 5
-  username: dartnyan
-  password: kurt1245
+  username: shop
+  password: 354293sas
 test:
   adapter: postgresql
   encoding: unicode
-  database: sportshop_test
+  database: shop_test
   pool: 5
-  username: dartnyan
-  password: kurt1245
+  username: shop
+  password: 354293sas
