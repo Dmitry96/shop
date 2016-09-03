@@ -9,49 +9,8 @@ Deface::Override.new(:virtual_path => "spree/shared/_header",
 # <%= taxons_tree(taxonomy.root, @taxon, max_level) %>
 Deface::Override.new(:virtual_path => "spree/layouts/spree_application", 
                      :name => "add footer", 
-                     :insert_after => "body") do 
-												"<br/>
-												<footer id='footer'>
-													<div id='background'>
-
-													<div class='container'>
-															
-													<div class='col-lg-3 col-md-3 col-sm-6'>
-										            <div class='column'>
-										            	<ul>
-									                	<li><div class='footer_title'>Информация</div></li>
-									                    
-								                    <li><%= link_to 'Политика конфиденциальности', main_app.policy_path %></li>
-								                    <li><%= link_to 'Пользовательское соглашение', main_app.user_agreement_path%></li>
-                                    <li><%= link_to 'О нас'                      , main_app.about_path %></li>
-									                </ul>
-										            </div>
-										        	</div>
-
-										        	<div class='col-lg-3 col-md-3 col-sm-6'>
-										            <div class='column'>
-										            	<ul>
-									                	<li><div class='footer_title'>Обслуживание клиентов</div></li>
-								                    <li><a>Телефон: Your phone number</a></li>
-								                    <li><a href='mailto:example@gmail.com'>Email: example@gmail.com</a></li>
-									                </ul>
-										            </div>
-										        	</div>
-
-
-															<div class='col-lg-3 col-md-3 col-sm-6'>
-										            <div class='column'>
-										            	<ul class='social'>
-									                	<li><div class='footer_title'>Социальные сети</div></li>
-								                    <li><a href='/' target='_blank'>Вконтакте</a></li>
-									                </ul>
-									            	</div>
-										        	</div>
-										        	
-														</div>
-													</div>
-												</footer>"
-end
+                     :insert_after => "body",
+                     :partial => "shared/footer")
  
 Deface::Override.new(:virtual_path => "spree/shared/_nav_bar", 
                   :name => "change header", 
@@ -65,7 +24,9 @@ Deface::Override.new(:virtual_path => "spree/shared/_nav_bar",
                              </li>
                                  <script>Spree.fetch_cart()</script>
                        </ul>' 
-                   end
+                  end
+
+
 
 
 Deface::Override.new(:virtual_path => "spree/shared/_main_nav_bar", 

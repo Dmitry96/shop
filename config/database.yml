@@ -4,11 +4,11 @@ development:
   database: shop_development
   pool: 5
   username: shop
-  password: <%= ENV['SHOP_DATABASE_PASSWORD'] %>
+  password: 354293sas
 test:
   adapter: postgresql
   encoding: unicode
   database: shop_test
   pool: 5
   username: shop
-  password: <%= ENV['SHOP_DATABASE_PASSWORD'] %>
+  password: 354293sas
