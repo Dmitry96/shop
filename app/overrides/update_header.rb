@@ -1,7 +1,7 @@
 Deface::Override.new(:virtual_path => "spree/shared/_header", 
 
                      :name => "change header add h3 Store ", 
-                     :replace => "figure#logo") do "<a id='logo' class='navbar-brand' href='/'> Store </a>" end
+                     :replace => "figure#logo") do "<a id='logo' class='navbar-brand' href='/'> Sport Store </a>" end
 
 
 
@@ -32,4 +32,7 @@ Deface::Override.new(:virtual_path => "spree/shared/_nav_bar",
 Deface::Override.new(:virtual_path => "spree/shared/_main_nav_bar", 
                   :name => "delete main_nav_bar", 
                   :remove => "div#main-nav-bar")
+
+
+
 
