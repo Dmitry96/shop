@@ -33,3 +33,6 @@ Deface::Override.new(:virtual_path => "spree/shared/_main_nav_bar",
                   :name => "delete main_nav_bar", 
                   :remove => "div#main-nav-bar")
 
+
+
+

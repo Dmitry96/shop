@@ -1,4 +1,12 @@
+/* fonts */
+
+.nav-bar li a {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
 /* logo */
+
+@import 'https://fonts.googleapis.com/css?family=Baloo+Paaji';
 
 a#logo {
 	color: white;
@@ -7,6 +15,8 @@ a#logo {
 	padding-top: 15px;
 	padding-bottom: 15px;
 	line-height: 20px;
+	font-family: 'Baloo Paaji', cursive;
+	font-size: 25px;
 }
 
 /* footer */
@@ -29,7 +39,8 @@ body {
 }
 
 #background {
-	background: rgba(34, 34, 34, 0.4);
+	//background: rgba(34, 34, 34, 0.6);
+	background-color:rgba(0,0,0,.40);
 	height: 100%;
 	width: 100%;
 	color: white !important;
@@ -71,6 +82,7 @@ footer .footer_title {
 	position: absolute;
 	text-align: center;
 	width: 100%;
+	background-color:rgba(0,0,0,.6);
 }
 
 /* header */
