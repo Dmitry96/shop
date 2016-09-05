@@ -7,12 +7,12 @@ development:
   adapter: postgresql
   database: shop_development
   pool: 5
-  username: shop
-  password: 354293sas
+  username: nickolay
+  password: kurt1245
 test:
   adapter: postgresql
   encoding: unicode
   database: shop_test
   pool: 5
-  username: shop
-  password: 354293sas
+  username: nickolay
+  password: kurt1245

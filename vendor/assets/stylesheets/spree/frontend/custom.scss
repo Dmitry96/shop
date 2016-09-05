@@ -11,7 +11,7 @@
 a#logo {
 	color: white;
 	display: inline-block;
-	float: left;
+	//float: left;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	line-height: 20px;
@@ -52,7 +52,7 @@ body {
 }
 
 ul.nav,ul.navbar-nav,ul.navbar-right {
-	float: right;
+	//float: right;
 }
 
 .column li a {
@@ -91,10 +91,9 @@ header#header {
 	padding: 10px !important;
 	padding-top: 19px !important;
 
-
-  p {
-		padding-top: 15px;
-    color: white;
+  	p {
+  		padding-top: 15px;
+    	color: white;
 	}
 }
 
@@ -113,4 +112,11 @@ header#header {
 	display: none;
 	cursor: pointer;
 	z-index: 1;
+}
+
+/* social */
+
+ul.social li a img {
+	width: 30px;
+	margin-top: 5px;
 }
